@@ -1,4 +1,4 @@
-# open wikipedia refresh fetch title, open amazon fetch title go back close
+# Task 3- open wikipedia refresh fetch title, open amazon fetch title go back close
 
 from time import sleep
 from selenium.webdriver import Chrome,ChromeOptions
@@ -17,3 +17,4 @@ print(driver.title)
 driver.back()
 sleep(5)
 driver.close()
+
