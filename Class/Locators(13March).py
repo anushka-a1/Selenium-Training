@@ -136,3 +136,19 @@ driver.find_element(By.CSS_SELECTOR,"#twotabsearchtextbox").send_keys("Skirts") 
 driver.find_element(By.CSS_SELECTOR,"#nav-search-submit-button").click()
 sleep(5)
 driver.close()
+
+# Locator by CSS Selector - it is used to locate the element by its unique CSS Selector
+# by class name
+from time import sleep
+from selenium.webdriver import Chrome,ChromeOptions
+from selenium.webdriver.common.by import By
+o=ChromeOptions()
+o.add_experimental_option("detach",True)
+driver=Chrome(options=o)
+driver.get("https://demoqa.com/text-box")
+driver.maximize_window()
+sleep(2)
+#locating the Full Name text box by its class name with help of CSS Selector
+driver.find_element(By.CSS_SELECTOR,".mr-sm-2.form-control").send_keys("Anushka") #enters the value in first input field
+sleep(5)
+driver.close()
