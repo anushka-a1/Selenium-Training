@@ -1,0 +1,48 @@
+{
+    "register_valid_user":{
+        "city": "jaipur",
+        "country": "india",
+        "email": "anushka1134@gmail.com",
+        "firstName": "anushka",
+        "gender": "FEMALE",
+        "lastName": "chaurasia",
+        "password": "1234",
+        "phone": 9025347614,
+        "state": "rajasthan",
+        "zoneId": "ALPHA"
+    },
+    "register_invalid_user":{
+        "city": "jaipur",
+        "country": "india",
+        "email": "anushka1134@gmail.com",
+        "firstName": "anushka",
+        "gender": "FEMALE",
+        "lastName": "chaurasia",
+        "password": "1234",
+        "phone": 0,
+        "state": "rajasthan",
+        "zoneId": ""
+    },
+    "login_valid_user":{
+        "email": "anushka1134@gmail.com",
+        "password": "1234",
+        "role": "SHOPPER"
+    },
+    "login_invalid_user":{
+        "email": "anushka1134@gmail.com",
+        "password": "string",
+        "role": "SHOPPER"
+    },
+    "update_user":{
+        "city": "jaipur",
+        "country": "india",
+        "email": "anushka1134@gmail.com",
+        "firstName": "anushka",
+        "gender": "FEMALE",
+        "lastName": "chaurasia",
+        "password": "123456",
+        "phone": 9025347614,
+        "state": "rajasthan",
+        "zoneId": "ALPHA"
+    }  
+}
