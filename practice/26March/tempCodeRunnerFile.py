@@ -1,0 +1,1 @@
+driver.save_screenshot("screenshot1(Task-1).png")
