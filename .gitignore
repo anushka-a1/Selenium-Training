@@ -1,0 +1,4 @@
+chrome-win64/
+*.dll
+.venv/
+__pycache__/
